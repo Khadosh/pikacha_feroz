@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.cdnfonts.com/css/press-start-2p"
+      rel="stylesheet"
+    />
+
+    <title>Teste</title>
+    <style>
+      @import url("https://fonts.cdnfonts.com/css/press-start-2p");
+
+      @font-face {
+        font-family: roboto;
+        src: url(roboto.ttf);
+      }
+
+      * {
+        font-family: roboto;
+      }
+
+      #bichos {
+        position: absolute;
+        top: 104px;
+        left: 79px;
+        z-index: 1;
+        background: url(bichos.jpeg) no-repeat 0 0;
+        width: 300px;
+        height: 234px;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      h1 {
+        font-family: "Press Start 2P", sans-serif;
+        position: absolute;
+        top: 40px;
+        left: 50px;
+        font-size: 22px;
+        letter-spacing: 0;
+      }
+
+      #info {
+        position: absolute;
+        top: 380px;
+        left: 40px;
+        z-index: 2;
+        width: 390px;
+      }
+
+      .data {
+        margin-bottom: 14px;
+        align-items: baseline;
+        display: flex;
+      }
+
+      .data span {
+        font-family: "Press Start 2P", sans-serif;
+        font-size: 14px;
+        margin-right: 10px;
+      }
+
+      .data > h3,
+      .data > p {
+        margin: 0px;
+        font-size: 14px;
+      }
+
+      .data > p {
+        font-size: 18px;
+        margin-left: 10px;
+      }
+
+      #date {
+        position: absolute;
+        top: 575px;
+        left: 300px;
+        z-index: 2;
+        text-align: right;
+      }
+
+      #date > h2,
+      #date > h4 {
+        margin: 0px;
+      }
+
+      #date > h4 {
+        font-size: 18px;
+      }
+
+      #nombre {
+        position: absolute;
+        top: 30px;
+        left: 320px;
+        z-index: 2;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Andrea && Bruno</h1>
+    <img src="pokecard.jpeg" alt="1" />
+    <div id="bichos"></div>
+    <div id="info">
+      <div class="data">
+        <p><span>LUGAR</span>Salón Bosque Tacuara</p>
+      </div>
+      <div class="data">
+        <p>
+          <span>VESTIMENTA</span>Informal! A no morir de calor. Se aceptan
+          zapatillas y sandalias
+        </p>
+      </div>
+      <div class="data">
+        <p>
+          <span>REGALOS</span>
+          No hacen falta, pero si quieren colaborar habrá una caja para sobres o
+          con el alias pikacha_feroz
+        </p>
+      </div>
+    </div>
+    <div id="date">
+      <h2>17/12/2022</h2>
+      <h4>12 a 17HS</h4>
+    </div>
+  </body>
+</html>
